@@ -1,7 +1,7 @@
 pipeline {
     agent any
     stages {
-		 sh 'mvn clean'
+		
 		
 		// ******ALL CODE TO BE ADDED BELOW THIS COMMENT******
 		
