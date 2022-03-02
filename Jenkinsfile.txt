@@ -10,7 +10,7 @@ pipeline {
 		//Code starts for stage Clean
         stage('Clean') {
             steps {
-                sh 'mvn clean verity'
+                sh 'mvn clean'
             }
         }
 		//Code ends for stage Clean
